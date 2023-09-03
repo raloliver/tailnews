@@ -2,16 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tail News</title>
-    <script src="//cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tail News</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="//cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:wght@400&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-    <button class="bg-green-500 text-white font-bold rounded-lg px-4 py-3">
-        This is a Button with a lot of classes
+<body class="bg-gradient-to-r from-teal-500 to-violet-700">
+  <main class="bg-white flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+    <img class="w-2/5 lg: w-1/5" src="image.jpg" alt="Serra da Estrela" />
+    <h1 class="text-4xl lg:text-6xl font-black">Serra da Estrela</h1>
+    <p class="text-center my-4">
+      De verão ou de inverno, a montanha mais alta de Portugal continental é o
+      cenário perfeito para uns dias descontraídos em contacto com a natureza.
+    </p>
+    <button class="bg-teal-300 text-white font-bold rounded-lg px-4 py-3 flex my-4">
+      Click me!
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+      </svg>
     </button>
+  </main>
 </body>
 
 </html>
